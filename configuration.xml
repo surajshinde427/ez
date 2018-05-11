@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <MongoConfig>
+
+ 		<MongoDbServer>172.52.50.148</MongoDbServer>
+		<MongoDbDatabase>TestServerSimpleTwitter</MongoDbDatabase>
+		<CollectionName>tweets</CollectionName>
+		<TopicCollection>events</TopicCollection>
+		<TemplateCollection>templates</TemplateCollection>
+		<Port>27017</Port>
+    </MongoConfig>
+      
+    
+    <KafkaConfig> 
+		<kafkaServerIP>localhost:9092</kafkaServerIP>
+		<groupIDConfig>KafkaExampleConsumer-test</groupIDConfig>
+		<zookeeperIP>localhost:2181</zookeeperIP>
+		<topicPath></topicPath>
+	</KafkaConfig>
+	
+	<topicPrefix>  
+        <item1>Ezest-Ascent-connect-</item1>  
+        <item1>Ezest-Whizible-connect-</item1>  
+        <item1>Ezest-TalentPool-connect-</item1>  
+   </topicPrefix>
+		
+   
+
+</Configuration>

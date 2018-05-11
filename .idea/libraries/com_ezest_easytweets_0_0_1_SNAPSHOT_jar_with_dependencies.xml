@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.ezest.easytweets-0.0.1-SNAPSHOT-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/com.ezest.easytweets-0.0.1-SNAPSHOT-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

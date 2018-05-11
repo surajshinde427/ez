@@ -1,0 +1,24 @@
+{
+    "MongoConfig": 
+  	  {
+  	  "MongoDbServer": "172.52.50.148",
+  	  "MongoDbDatabase":"TestServerSimpleTwitter",
+  	  "CollectionName":"tweets",
+  	  "TopicCollection":"events",
+  	  "TemplateCollection":"templates",
+      "Port":"27017"   
+      }
+    ,
+    
+    "KafkaConfig": 
+  	  {
+  	  "kafkaServerIP": "localhost:9092",
+  	  "groupIDConfig":"KafkaExampleConsumer",
+  	  "zookeeperIP":"localhost:2181",
+  	  "topicPath":" /brokers/topics"
+  	 } 
+    
+    ,
+    "topicPrefix":["Ezest-Ascent-connect-" ,"Ezest-Whizible-connect-","Ezest-TalentPool-connect-"]
+    
+}
